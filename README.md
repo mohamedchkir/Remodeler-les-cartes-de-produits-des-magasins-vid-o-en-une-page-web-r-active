@@ -1,1 +1,1 @@
-# Remodeler-les-cartes-de-produits-des-magasins-vid-o-en-une-page-web-r-active
+# Page-d-accueil-du-magasin-de-video
