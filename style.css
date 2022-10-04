@@ -158,7 +158,7 @@ footer {
     header {
         background-color: rgb(244, 235, 194);
         height: 80px;
-        width: 583px
+        width: 592px;
     }
 
     header img {
@@ -175,7 +175,7 @@ footer {
      header ul li a { 
         text-decoration: none;
         margin: 10px;
-        font-size: 90%;
+        font-size: 100%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(255, 40, 40);
 
@@ -208,7 +208,7 @@ footer {
 
     section h1 {
         margin-top: 50px;
-        margin-left: 137px;
+        margin-left: 57px;
         font-family: 'Times New Roman', Times, serif;
         font-style: oblique;
         font-size: 190%;
@@ -216,8 +216,7 @@ footer {
     }
 
     section p {
-        text-align: center;
-        margin-left: 120px;
+        margin-left: 30px;
         font-size: 100%;
         margin-top: 15px;
         color: rgb(7, 5, 5);
@@ -236,22 +235,45 @@ footer {
     .card3,
     .card4 {
         margin-top: 20px;
-        border: 3px solid;
-
+        border: 3px solid
         width: 300px;
-        margin-left: 250px;
+        margin-left: 190px;
         background-color: rgb(250, 236, 172);
     }
 
     footer {
         background-color: rgb(67, 67, 67);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding-left: 220px;
+        padding-left: 180px;
         margin-top: 30px;
-        width: 63%;
+        width: 410px;
         color: aliceblue;
     }
 
+}
+@media (max-width: 500px) {
+ header {
+    width: 480px;
+ }
+ header img {
+    margin-left: -70px;
+ }
+ 
+ header ul {
+    margin-right:12%;
+ }
+ header ul li a {
+    margin: 1px;
+ }
+ .card1,
+ .card2,
+ .card3,
+ .card4 {
+    margin-left: 120px;
+    }
+ footer{
+    display: none;
+ }
 }
 @media (max-width: 400px) {
     
